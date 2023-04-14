@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,17 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a337a4-9564-4908-b983-e176689a3576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/Zadanie 2 - b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2 - b/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2/.idea/Zadanie 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zadanie 2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Zadania 3/Znaki - Zadanie 2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Zadania 3/Znaki - Zadanie 2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Zadanie_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zadanie_3" TARGET_NAME="Zadanie_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zadanie_3" RUN_TARGET_NAME="Zadanie_3">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zadanie_3" TARGET_NAME="Zadanie_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zadanie_3" RUN_TARGET_NAME="Zadanie_3">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -94,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679817506881</updated>
       <workItem from="1679817508309" duration="3925000" />
+      <workItem from="1680439616351" duration="56000" />
     </task>
     <servers />
   </component>
