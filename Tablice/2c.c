@@ -25,9 +25,26 @@ int main() {
     }
 
     int prawy, lewy;
-    printf("Podaj zakres z wygenerowanej tablicy: \n");
-    scanf("%d%d",&prawy,&lewy);
+    printf("\nPodaj zakres z wygenerowanej tablicy lewy/prawy: \n");
+    scanf("%d%d",&lewy,&prawy);
+    if (lewy<0 || prawy<0 || lewy>n || prawy>n){
+        printf("\nbledny zakres\n");
+    }
+    else {
+        int dlugosc = ((prawy - lewy) + 1) / 2;
+        int temp;
+        for (int i = 0; i < dlugosc; ++i) {
+            temp = tab[lewy];
+            tab[lewy] = tab[prawy];
+            tab[prawy] = temp;
+            lewy++;
+            prawy--;
+        }
+    }
 
+    for (int i = 0; i < n; ++i) {
+        printf("%2d ", tab[i]);
+    }
 
 
     return 0;

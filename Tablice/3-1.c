@@ -7,7 +7,7 @@ void wypisz(short tab[], int n);
 void collatz(short tab[], int n);
 void zmien(short tab[], int n);
 void signum(short tab[], int n);
-void odwroc(short tab[], int n);
+void odwroc(short tab[], int lewy, int prawy);
 int ileNieparzystych(const short tab[],int n);
 int ileParzystych(const short tab[], int n);
 int ileMaksymalnych(const short tab[], int n);
@@ -88,9 +88,17 @@ void signum(short tab[], int n)
     }
 }
 
-void odwroc(short tab[], int n)
+void odwroc(short tab[], int lewy, int prawy)
 {
-
+    int dlugosc = ((prawy - lewy) + 1) / 2;
+    int temp;
+    for (int i = 0; i < dlugosc; ++i) {
+        temp = tab[lewy];
+        tab[lewy] = tab[prawy];
+        tab[prawy] = temp;
+        lewy++;
+        prawy--;
+    }
 }
 
 int ileNieparzystych(const short tab[],int n)
