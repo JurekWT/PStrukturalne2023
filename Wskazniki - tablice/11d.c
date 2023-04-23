@@ -26,25 +26,20 @@ int main() {
         printf("%d ", *p);
     }
 
-    int prawy, lewy;
-    printf("\nPodaj zakres z wygenerowanej tablicy lewy/prawy: \n");
-    scanf("%d%d",&lewy,&prawy);
-    if (lewy<0 || prawy<0 || lewy>n || prawy>n){
-        printf("\nbledny zakres\n");
-    }
-    else {
-        int dlugosc = ((prawy - lewy) + 1) / 2;
-        int temp;
-        short *pprawy = tab + prawy -1;
-        short *plewy = tab + lewy -1;
-        for (int i = 0; i < dlugosc; ++i) {
-            temp = *plewy;
-            *plewy = *pprawy;
-            *pprawy = temp;
-            plewy++;
-            pprawy--;
+    printf("\n");
+
+    int parzyste = 0;
+    int nieparzyste = 0;
+    for (int *p = tab; p < tab + n; ++p) {
+        if (*p % 2 == 0){
+            parzyste++;
         }
+        else
+            nieparzyste++;
     }
+
+    printf("Parzyste: %d\n", parzyste);
+    printf("Nieparzyste: %d\n", nieparzyste);
 
 
     printf("\n");

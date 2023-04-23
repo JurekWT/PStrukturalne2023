@@ -1,3 +1,0 @@
-C:/Users/Jurek/Documents/GitHub/PStrukturalne2023/Zadania Tablice/Zadanie 3/cmake-build-debug/CMakeFiles/Zadanie_3.dir
-C:/Users/Jurek/Documents/GitHub/PStrukturalne2023/Zadania Tablice/Zadanie 3/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Jurek/Documents/GitHub/PStrukturalne2023/Zadania Tablice/Zadanie 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

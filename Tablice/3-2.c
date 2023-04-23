@@ -16,20 +16,17 @@ int main() {
         printf("Liczba elementow musi byc w przedziale [1,%d]",N);
         return 0;
     }
-    generuj(tab,n,15,20);
+    generuj(tab,n,-99,99);
     wypisz(tab,n);
 
     return 0;
 }
 
 
-void generuj(short tab[], int n, short minWartosc, short maxWartosc)
-{
+void generuj(short tab[], int n, short minWartosc, short maxWartosc) {
     srand(time(0));
     for (int i = 0; i < n; ++i) {
-        tab[i] = rand()%maxWartosc+1;
-        while (tab[i]<minWartosc)
-            tab[i] = rand()%maxWartosc+1;
+        tab[i] = rand() % (maxWartosc - minWartosc + 1) + minWartosc;
     }
 }
 

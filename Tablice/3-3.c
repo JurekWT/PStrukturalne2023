@@ -22,7 +22,7 @@ int main() {
         printf("Liczba elementow musi byc w przedziale [1,%d]",N);
         return 0;
     }
-    generuj(tab,n,1,199);
+    generuj(tab,n,-99,99);
     wypisz(tab,n);
     printf("\nIlosc dodatnich: %d", ileDodatnich(tab, n));
     printf("\nIlosc ujemnych: %d", ileUjemnych(tab, n));
@@ -39,13 +39,7 @@ void generuj(short tab[], int n, short minWartosc, short maxWartosc)
 {
     srand(time(0));
     for (int i = 0; i < n; ++i) {
-        tab[i] = rand()%maxWartosc+1;
-        while (tab[i]<minWartosc)
-            tab[i] = rand()%maxWartosc+1;
-    }
-    for (int i = 0; i < n; ++i) {
-        tab[i] -= 100;
-    }
+        tab[i] = rand() % (maxWartosc - minWartosc + 1) + minWartosc;
 }
 
 void wypisz(short tab[], int n)

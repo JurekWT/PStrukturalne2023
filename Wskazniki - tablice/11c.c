@@ -33,17 +33,17 @@ int main() {
         printf("\nbledny zakres\n");
     }
     else {
-        int dlugosc = ((prawy - lewy) + 1) / 2;
-        int temp;
-        short *pprawy = tab + prawy -1;
-        short *plewy = tab + lewy -1;
-        for (int i = 0; i < dlugosc; ++i) {
-            temp = *plewy;
-            *plewy = *pprawy;
-            *pprawy = temp;
-            plewy++;
-            pprawy--;
-        }
+            int dlugosc = ((prawy - lewy) + 1) / 2;
+            int temp;
+            short *pprawy = tab + prawy -1;
+            short *plewy = tab + lewy -1;
+            for (int i = 0; i < dlugosc; ++i) {
+                temp = *plewy;
+                *plewy = *pprawy;
+                *pprawy = temp;
+                plewy++;
+                pprawy--;
+            }
     }
 
 
