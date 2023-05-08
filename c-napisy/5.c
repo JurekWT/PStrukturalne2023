@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 size_t strlen(const char *s);
-int strindex(char *s, char *t);
+int strindex(const char *s,const char *t);
 
 
 int main()
@@ -24,14 +24,14 @@ size_t strlen(const char *s)
     return len;
 }
 
-int strindex(char *s, char *t) {
-    char *p, *q, *r;
+int strindex(const char s[],const char t[]) {
+    int i, j, k;
 
-    for (p = s; *p != '\0'; p++) {
-        for (q = p, r = t; *r != '\0' && *q == *r; q++, r++)
+    for (i = 0; s[i] != '\0'; i++) {
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
             ;
-        if (r > t && *r == '\0')
-            return p - s;
+        if (k > 0 && t[k] == '\0')
+            return i;
     }
 
     return -1;
