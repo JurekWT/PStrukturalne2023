@@ -11,5 +11,8 @@ int main() {
 
 double funkcjaliniowa(double a, double b)
 {
+    if (a==0){
+        printf("Nie można dzielić przez 0");
+    }
     return -b/a;
 }
